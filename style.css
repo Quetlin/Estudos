@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 700px;
+  background-image: url(https://i.imgur.com/nzeErJc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 100px;
+  height: 100vh;
+}
+
+.card {
+  background-color: #E9967A80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  width: 400px;
+  height: 400px;
+  margin-left: 600px;
+}
+
+.page-title {
+  color:#00000070;
+  margin: 0 0 30px;
+  margin-top: -80px;
+}
+
+.page-subtitle {
+  color:#00000050;
+  margin-top: 5px;
+}
+
+.label-float input{ 
+  width: 10%;
+  padding: 2px 2px;
+  display: inline-block;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 10;
+}
+
+.label-float{
+  padding-top: 2px;
+  margin-top: 2%;
+  margin-bottom: 100%;
+}
+
+.botao-conversor{
+  background-color: transparent;
+  border-colo: #27226280;
+  color: #00000080;
+  padding: 7px;
+  margin-top: 20px;
+  width: 100px;
+  font-size: 12pt;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.botao-conversor:hover{
+  background-color: #27226280;
+  color: #fff;
+  
+}
+
+.page-logo {
+  width: 200px;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
